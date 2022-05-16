@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
-const Header = styled.header`
-  background-color: #084887;
-  height: 100px;
+const StyledHeader = styled.header`
+  background-color: #17bebb;
+  height: 60px;
 `;
+
+const Header = () => {
+  return <StyledHeader></StyledHeader>;
+};
 
 export default Header;
