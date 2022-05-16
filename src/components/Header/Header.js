@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Brand from "./Brand";
+import Nav from "./Nav";
 
 const StyledHeader = styled.header`
   background-color: var(--clr-blue);
@@ -10,6 +11,7 @@ const Content = styled.div`
   align-items: center;
   display: flex;
   height: 100%;
+  justify-content: space-between;
   margin-inline: auto;
   max-width: 1200px;
 `;
@@ -19,6 +21,7 @@ const Header = () => {
     <StyledHeader>
       <Content>
         <Brand>TVMI</Brand>
+        <Nav />
       </Content>
     </StyledHeader>
   );
