@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Brand from "./Brand";
+import Button from "./Button";
 import Nav from "./Nav";
+import UserAuth from "./UserAuth";
 
 const StyledHeader = styled.header`
   background-color: var(--clr-blue);
@@ -21,7 +23,13 @@ const Header = () => {
     <StyledHeader>
       <Content>
         <Brand>TVMI</Brand>
+
         <Nav />
+
+        <UserAuth>
+          <Button to="/login">Login</Button>
+          <Button to="/join">Join</Button>
+        </UserAuth>
       </Content>
     </StyledHeader>
   );
