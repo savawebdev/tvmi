@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
     --clr-red: #EF3E36;
     --clr-white: #F7F5FB;
   }
+
+  body {
+    font-family: 'Ubuntu', sans-serif;
+  }
 `;
 
 export default GlobalStyle;
