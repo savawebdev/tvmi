@@ -7,7 +7,7 @@ const SearchInput = styled.input`
   height: 50px;
   padding-inline: 20px;
   position: relative;
-  width: 80%;
+  width: 60%;
   z-index: 10;
 
   :focus {
