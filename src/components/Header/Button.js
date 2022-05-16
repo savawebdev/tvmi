@@ -13,7 +13,7 @@ const Button = styled(Link)`
   height: 40px;
   justify-content: center;
   text-decoration: none;
-  transition: all 0.4s ease;
+  transition: var(--transition-primary);
   width: 100px;
 
   :hover {

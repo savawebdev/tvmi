@@ -8,7 +8,14 @@ const StyledNav = styled.nav`
 
 const StyledLink = styled(Link)`
   color: var(--clr-white);
+  font-size: 1rem;
+  font-weight: bold;
   text-decoration: none;
+  transition: var(--transition-primary);
+
+  :hover {
+    color: var(--clr-lightgreen);
+  }
 `;
 
 const Nav = () => {

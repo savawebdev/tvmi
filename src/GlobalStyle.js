@@ -7,6 +7,8 @@ const GlobalStyle = createGlobalStyle`
     --clr-lightgreen: #17BEBB;
     --clr-red: #EF3E36;
     --clr-white: #F7F5FB;
+
+    --transition-primary: all 0.4s ease;
   }
 
   body {
