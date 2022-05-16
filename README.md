@@ -22,6 +22,7 @@
 ## Technologies Used
 
 - React
+- Styled Components
 
 ## Features
 
