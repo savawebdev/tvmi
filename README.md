@@ -37,6 +37,7 @@ Project is: _in progress_
 - Add a search option on the home page
 - Add pagination on the `Movies` and `TV Shows` pages so the user can browse through more than 20 movies/shows
 - Add user account creation and login; registered users should be able to add a movie/show to their favorites list and be able to leave a review
+-
 
 ## Contact
 
