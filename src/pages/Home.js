@@ -1,4 +1,4 @@
-import Hero from "../components/Hero/Hero";
+import Hero from "../components/HomePage/Hero/Hero";
 import PopularMovies from "../components/HomePage/PopularMovies";
 import PopularShows from "../components/HomePage/PopularShows";
 

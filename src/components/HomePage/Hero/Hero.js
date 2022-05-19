@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import backgroundImg from "../../assets/images/5150.jpg";
+import backgroundImg from "../../../assets/images/5150.jpg";
 import SearchInput from "./SearchInput";
 import Title from "./Title";
 import Overlay from "./Overlay";
-import getPopularMovies from "../../data/getPopularMovies";
 
 const StyledHero = styled.div`
   align-items: center;
