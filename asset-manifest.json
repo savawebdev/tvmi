@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tvmi/static/css/main.9beead37.css",
+    "main.js": "/tvmi/static/js/main.8fb1cc47.js",
+    "static/media/5150.jpg": "/tvmi/static/media/5150.a7a26907e7a5587f190f.jpg",
+    "index.html": "/tvmi/index.html",
+    "main.9beead37.css.map": "/tvmi/static/css/main.9beead37.css.map",
+    "main.8fb1cc47.js.map": "/tvmi/static/js/main.8fb1cc47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9beead37.css",
+    "static/js/main.8fb1cc47.js"
+  ]
+}
