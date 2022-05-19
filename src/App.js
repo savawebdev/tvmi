@@ -7,6 +7,7 @@ import GlobalStyle from "./GlobalStyle";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 import Movies from "./pages/Movies";
+import Shows from "./pages/Shows";
 
 const App = () => {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -38,6 +39,8 @@ const App = () => {
           }
         />
         <Route path="/movies" element={<Movies data={popularMovies} />} />
+
+        <Route path="/tvshows" element={<Shows data={popularShows} />} />
       </Routes>
 
       <Footer />
