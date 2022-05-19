@@ -19,7 +19,7 @@ const HomeMovieCard = ({ data }) => {
   return (
     <Card>
       <Img src={`https://image.tmdb.org/t/p/w200${data.poster_path}`} alt="" />
-      <Title>{data.title}</Title>
+      <Title>{data.title || data.name}</Title>
     </Card>
   );
 };

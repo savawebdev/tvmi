@@ -4,17 +4,17 @@ import HomeMovieCard from "./HomeMovieCard";
 import HomeSection from "./HomeSection";
 import SectionTitle from "./SectionTitle";
 
-const PopularShows = ({ data }) => {
+const PopularMovies = ({ data }) => {
   return (
     <HomeSection>
-      <SectionTitle>Popular Shows</SectionTitle>
+      <SectionTitle>Popular Movies</SectionTitle>
       <HomeGrid>
-        {data.map((show) => (
-          <HomeMovieCard key={show.id} data={show} />
+        {data.map((movie) => (
+          <HomeMovieCard key={movie.id} data={movie} />
         ))}
       </HomeGrid>
     </HomeSection>
   );
 };
 
-export default PopularShows;
+export default PopularMovies;

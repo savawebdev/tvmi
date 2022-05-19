@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import getPopularMovies from "../data/getPopularMovies";
 import getPopularShows from "../data/getPopularShows";
 import Hero from "../components/Hero/Hero";
+import PopularMovies from "../components/HomePage/PopularMovies";
 import PopularShows from "../components/HomePage/PopularShows";
 
 const Home = () => {
@@ -21,7 +22,8 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <PopularShows data={popularMovies} />
+      <PopularMovies data={popularMovies} />
+      <PopularShows data={popularShows} />
     </>
   );
 };
